@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=Orbitron:wght@900&family=Tilt+Prism&display=swap');
+
+
+body{
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+.name{
+	font-family: 'Tilt Prism', cursive;
+	margin-left: 40%;
+}
+
+.container {
+	display: flex;
+	/* justify-content: space-around; */
+	
+	height: 300px;
+  }
+ #container1{
+	margin-left: 30%;
+	margin-top: 5%;
+ }
+ #container2{
+	margin-top: 5%;
+	margin-left: 10%;
+ }
+  .box-container {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5%;
+  }
+
+  .box {
+	margin-bottom: 10px;
+	background-color: #CCCC99;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	cursor: move;
+	border-radius: 3%;
+  }
+
+  #but{
+	margin-left: 47%;
+	margin-top: 5%;
+	height: 50px;
+	width: 10%;
+	border-radius: 5%;
+	border-width: 0px;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  }
+ 
+  
